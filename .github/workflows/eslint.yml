@@ -1,0 +1,21 @@
+name: ESLint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  eslint:
+    name: Run ESLint linting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2.1.0
+        with:
+          version: 6.32.6
+      - uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: latest
+      - run: pnpm i && pnpx eslint -f rdjson . | reviewdog -f=rdjson -reporter=github-pr-review
