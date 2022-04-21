@@ -18,6 +18,8 @@ const Wrapper = styled.div`
 	align-items: center;
 `;
 
-export const App = () => {
-	<Wrapper></Wrapper>;
-};
+export const App = () => (
+	<Wrapper>
+		<GlobalStyle />
+	</Wrapper>
+);
