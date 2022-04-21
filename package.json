@@ -1,0 +1,19 @@
+{
+	"name": "howl",
+	"version": "1.0.0",
+	"description": "Open-source, secure, guilded chat application.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/howlapp/howl.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/howlapp/howl/issues"
+	},
+	"homepage": "https://github.com/howlapp/howl#readme",
+	"devDependencies": {
+		"prettier": "^2.6.2"
+	}
+}
