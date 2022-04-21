@@ -1,0 +1,17 @@
+{
+	"name": "@howlapp/core",
+	"version": "1.0.0",
+	"description": "Core UI components shared across web and native applications.",
+	"main": "src/index.ts",
+	"keywords": [],
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^4.6.3"
+	},
+	"dependencies": {
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"react-is": "^18.0.0",
+		"styled-components": "^5.3.5"
+	}
+}
