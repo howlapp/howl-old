@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 	body {
@@ -19,5 +19,5 @@ const Wrapper = styled.div`
 `;
 
 export const App = () => {
-	<Wrapper></Wrapper>
+	<Wrapper></Wrapper>;
 };
