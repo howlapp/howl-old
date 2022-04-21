@@ -31,7 +31,7 @@ importers:
     devDependencies:
       typescript: 4.6.3
 
-  packages/howl:
+  packages/web:
     specifiers:
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
