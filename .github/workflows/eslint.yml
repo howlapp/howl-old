@@ -2,9 +2,9 @@ name: ESLint
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   eslint:
@@ -18,4 +18,4 @@ jobs:
       - uses: reviewdog/action-setup@v1
         with:
           reviewdog_version: latest
-      - run: pnpm i && pnpx eslint -f rdjson . | reviewdog -f=rdjson -reporter=github-pr-review
+      - run: pnpm i && pnpx eslint -f eslint-formatter-rdjson . | reviewdog -f=rdjson -reporter=github-pr-review

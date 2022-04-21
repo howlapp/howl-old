@@ -11,6 +11,7 @@ importers:
       eslint-config-airbnb: 19.0.4
       eslint-config-airbnb-typescript: ^17.0.0
       eslint-config-prettier: ^8.5.0
+      eslint-formatter-rdjson: ^1.0.5
       eslint-plugin-import: ^2.25.3
       eslint-plugin-jsx-a11y: ^6.5.1
       eslint-plugin-prettier: ^4.0.0
@@ -29,6 +30,7 @@ importers:
       eslint-config-airbnb: 19.0.4_98153b3cb1eb5f851029189077e45ffc
       eslint-config-airbnb-typescript: 17.0.0_56fce2f5d91a6095d0aec5d85a160bff
       eslint-config-prettier: 8.5.0_eslint@8.13.0
+      eslint-formatter-rdjson: 1.0.5
       eslint-plugin-import: 2.26.0_eslint@8.13.0
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.13.0
       eslint-plugin-prettier: 4.0.0_1815ac95b7fb26c13c7d48a8eef62d0f
@@ -2318,6 +2320,13 @@ packages:
       eslint: ">=7.0.0"
     dependencies:
       eslint: 8.13.0
+    dev: true
+
+  /eslint-formatter-rdjson/1.0.5:
+    resolution:
+      {
+        integrity: sha512-z275VEQgzmAF04yTRvvl1DbEMEczVb9pGUoj31zzydBTn/gYcKLUIxLEXRzpWqh4llOYMuICICAHFbdF/yA28A==,
+      }
     dev: true
 
   /eslint-import-resolver-node/0.3.6:
