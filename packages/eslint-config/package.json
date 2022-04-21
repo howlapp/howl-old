@@ -3,8 +3,11 @@
 	"version": "1.0.0",
 	"description": "Shared ESLint config for Howl",
 	"main": "index.js",
-	"keywords": [],
-	"author": "",
+	"private": false,
+	"author": {
+		"name": "Kaylen Dart",
+		"email": "actuallyori@gmail.com"
+	},
 	"license": "MIT",
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.20.0",
