@@ -6,8 +6,7 @@
 	"keywords": [],
 	"license": "MIT",
 	"devDependencies": {
-		"typescript": "^4.6.3",
-		"@howlapp/eslint-config": "workspace:^"
+		"typescript": "^4.6.3"
 	},
 	"dependencies": {
 		"react": "^18.0.0",

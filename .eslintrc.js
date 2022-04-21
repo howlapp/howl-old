@@ -2,6 +2,8 @@ const rules = {
 	quotes: ["error", "double"],
 	indent: ["error", "tab"],
 	"no-tabs": "off",
+	"import/prefer-default-export": "off",
+	"react/function-component-definition": [2, { namedComponents: "arrow-function" }],
 };
 
 const parserOptions = {
