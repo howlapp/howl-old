@@ -1,18 +1,17 @@
 [package]
-name = "app"
+name = "howl-desktop"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
-default-run = "app"
+description = "Open-source, secure, guilded chat application."
+authors = ["Kaylen Dart <actuallyori@gmail.com>"]
+license = "GPL-3.0"
+repository = "https://github.com/howlapp/howl"
+default-run = "howl-desktop"
 edition = "2021"
 rust-version = "1.57"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [build-dependencies]
 tauri-build = { version = "1.0.0", features = [] }
+vergen = "7"
 
 [dependencies]
 serde_json = "1.0"
