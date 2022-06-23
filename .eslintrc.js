@@ -8,7 +8,7 @@ const rules = {
 
 const parserOptions = {
 	tsconfigRootDir: __dirname,
-	project: ["./packages/*/tsconfig.json"],
+	project: ["./packages/**/tsconfig.json", "./packages/**/tsconfig.*.json"],
 };
 
 module.exports = {
